@@ -21,8 +21,8 @@
             <if test="phone != null and phone != ''">phone = #{phone},</if>
             <if test="sex != null and sex != ''">sex = #{sex},</if>
             <if test="idNumber != null and idNumber != ''">id_number = #{idNumber},</if>
-            <if test="updateTime != null and updateTime != ''">update_time = #{updateTime},</if>
-            <if test="updateUser != null and updateUser != ''">update_user = #{updateUser},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+            <if test="updateUser != null">update_user = #{updateUser},</if>
             <if test="status != null and status != ''">status = #{status},</if>
         </set>
         where id = #{id}
