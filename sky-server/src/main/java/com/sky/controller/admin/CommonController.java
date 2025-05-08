@@ -24,7 +24,7 @@ import java.util.UUID;
 @RestController
 @RequestMapping("/admin/common")
 @Slf4j
-@Api("通用接口")
+@Api(tags = "通用接口")
 public class CommonController {
 
     private static String FILE_UPLOAD_PATH = "/home/xxxxxl/java/hm_ziliao/cqwm/sky-take-out/sky-server/src/main/resources/upload/";
